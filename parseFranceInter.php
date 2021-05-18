@@ -43,7 +43,6 @@ class pageLoader {
 		$this->monthCorrespondence["octobre"] = "10";
 		$this->monthCorrespondence["novembre"] = "11";
 		$this->monthCorrespondence["decembre"] = "12";
-
 	}
 	
 	
@@ -220,35 +219,4 @@ class extractFranceInter extends pageLoader {
 }
 
 $myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
-
-/***
-
-52 - 06.09.2016
-52 - 05.09.2016
-52 - 02.09.2016
-52 - 01.09.2016
-52 - 31.08.2016
-52 - 30.08.2016
-52 - 29.08.2016
-52 - 01.07.2016
-52 - 30.06.2016
-52 - 29.06.2016
-52 - 28.06.2016
-52 - 27.06.2016
-52 - 24.06.2016
-52 - 23.06.2016
-53 - 22.06.2016
-53 - 21.06.2016
-53 - 20.06.2016
-53 - 17.06.2016
-53 - 16.06.2016
-53 - 15.06.2016
-53 - 14.06.2016
-53 - 13.06.2016
-53 - 10.06.2016
-57 - 15.02.2016
-57 - 15.02.2016
-61 - 16.11.2015
-62 - 23.09.2015
-*/
 
