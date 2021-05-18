@@ -31,6 +31,9 @@ class pageLoader {
 		$this->prepareDom();
 		$this->prepareXPath();
 		
+		
+		/*Month in French conversion...because of accents, weird locales and the fact the REMOTE website can be of a different language 
+		than the system using the script -> we enforce months in French: all lower case, no accents.*/
 		$this->monthCorrespondence["janvier"] = "01";
 		$this->monthCorrespondence["fevrier"] = "02";
 		$this->monthCorrespondence["mars"] = "03";
@@ -81,15 +84,21 @@ class pageLoader {
 		$this->myXPath = new DomXPath($this->myDom);
 	}
 	
-	public final function download($fileName, $source) : string
+	/**
+	* Download from a $source (URL) to a $destination
+	* params: destination -> expects path or filename
+	* params: source -> expected URL in our context but could anything
+	* return: string, message -> displays what happened for the 
+	*/
+	public final function download($destination, $source) : string
 	{
 		$message="Wrong parameters for downloading file";
-		if(!is_null($fileName) && !is_null($source))
+		if(!is_null($destination) && !is_null($source))
 		{
-			
-			if(file_put_contents($fileName, fopen($source, 'r')))
+			//performing the download with open()...just for fun
+			if(file_put_contents($destination, fopen($source, 'r')))
 			{
-				$message =  $fileName . " - File downloaded successfully \n";
+				$message =  $destination . " - File downloaded successfully \n";
 				//echo $message;
 			}
 			else
@@ -134,13 +143,16 @@ class extractFranceInter extends pageLoader {
 			
 			foreach($pageToExtract as $node)
 			{
+				//We enforce this format for the fileName -> yyyy.mm.dd.mp3
 				$fileName= NULL;
+				
+				//currentYear must be of the form yyyy
 				$currentYear=NULL;
+				
 				//Detecting new format for audio files naming
 				if(preg_match("/\d{2}\.\d{2}\.\d{4}/", $node->getAttribute("data-url"), $fileName))
 				{
-					
-					
+	
 					$fileName = $fileName[0];
 					$fileName = explode(".", $fileName);
 					$newYear = intval($fileName[2]);
@@ -154,6 +166,7 @@ class extractFranceInter extends pageLoader {
 				//Detecting old format for audio files naming
 				else
 				{
+					//getting the last part of the path in order to extract correct fileName
 					$fileName = basename($node->getAttribute("data-diffusion-path"));
 					$fileName = str_replace("le-jeu-des-1000-eu-", "", $fileName);
 										
@@ -172,6 +185,12 @@ class extractFranceInter extends pageLoader {
 					}
 				}
 				
+				
+				//Getting ready for download. Performing some last verification
+				//Year must not be null -> we create directories based on the year, so it better be valid
+				//fileName must not be null -> we create the file from that variable
+				//strlen($fileName)> 6 -> just checking that the filename is of the right lenght
+				//fileName has to end with "mp3"...which also means that we do not handle other file formats for now, as it is the only format provided by France Inter
 				if(!is_null($currentYear) && !is_null($fileName) && strlen($fileName)>6 && substr($fileName, -3) == "mp3")
 				{
 					if(!file_exists($currentYear))
@@ -191,6 +210,7 @@ class extractFranceInter extends pageLoader {
 	public function __construct($url)
 	{
 		parent::__construct($url);
+		//This loop is based on page number, so $i indicate which page on France Inter's website we are accessing and subsequently downloading
 		for($i = 1; $i <=  $this->getMaxPage();$i++)
 		{
 			$this->extractor($i);
