@@ -15,6 +15,7 @@ class pageLoader {
 	protected $html;
 	protected $myXPath;
 	protected $myDom;
+	protected $monthCorrespondence = array();
 	
 	
 	public final function getHtml() : string
@@ -29,7 +30,20 @@ class pageLoader {
 		$this->readUrlSource();
 		$this->prepareDom();
 		$this->prepareXPath();
-		//$this->getBaseUrl();
+		
+		$this->monthCorrespondence["janvier"] = "01";
+		$this->monthCorrespondence["fevrier"] = "02";
+		$this->monthCorrespondence["mars"] = "03";
+		$this->monthCorrespondence["avril"] = "04";
+		$this->monthCorrespondence["mai"] = "05";
+		$this->monthCorrespondence["juin"] = "06";
+		$this->monthCorrespondence["juillet"] = "07";
+		$this->monthCorrespondence["aout"] = "08";
+		$this->monthCorrespondence["septembre"] = "09";
+		$this->monthCorrespondence["octobre"] = "10";
+		$this->monthCorrespondence["novembre"] = "11";
+		$this->monthCorrespondence["decembre"] = "12";
+
 	}
 	
 	
@@ -68,6 +82,25 @@ class pageLoader {
 		$this->myXPath = new DomXPath($this->myDom);
 	}
 	
+	public final function download($fileName, $source) : string
+	{
+		$message="Wrong parameters for downloading file";
+		if(!is_null($fileName) && !is_null($source))
+		{
+			
+			if(file_put_contents($fileName, fopen($source, 'r')))
+			{
+				$message =  $fileName . " - File downloaded successfully \n";
+				echo $message;
+			}
+			else
+			{
+				$message = "File downloading failed. \n";
+				echo $message;
+			}
+		}
+		return $message;
+	}
 }
 
 
@@ -80,9 +113,6 @@ class extractFranceInter extends pageLoader {
 	*/
 	public function getMaxPage() : int
 	{
-		///html/body/main/section/div/div/div[4]/div[2]/ul[1]/li[13]/a
-		///html/body/main/section/div/div/div[4]/div[2]/ul[1]/li[13]
-		//$lastPage = $this->myXPath->query("/html/body/main/section/div/div/div[4]/div[2]/ul[1]/li[13]");
 		$className="pager-item last";
 		$lastPage= $this->myXPath->query("//*[contains(@class, '$className')]");
 				
@@ -102,11 +132,15 @@ class extractFranceInter extends pageLoader {
 			$pageToExtract = new pageLoader($this->urlSource . "?p=". $pageId);
 			$className="replay-button playable";
 			$pageToExtract= $pageToExtract->myXPath->query("//*[contains(@class, '$className')]");
-			$currentYear=0000;
+			
 			foreach($pageToExtract as $node)
 			{
-				if(preg_match("/\d{2}.\d{2}.\d{4}/", $node->getAttribute("data-url"), $fileName))
+				$fileName= NULL;
+				$currentYear=NULL;
+				//Detecting new format for audio files naming
+				if(preg_match("/\d{2}\.\d{2}\.\d{4}/", $node->getAttribute("data-url"), $fileName))
 				{
+					
 					
 					$fileName = $fileName[0];
 					$fileName = explode(".", $fileName);
@@ -114,23 +148,40 @@ class extractFranceInter extends pageLoader {
 					if($newYear != $currentYear)
 					{
 						$currentYear = $newYear;
+					}
+					
+					$fileName = $fileName[2] . "." . $fileName[1] . "." . $fileName[0] . ".mp3";
+				}
+				//Detecting old format for audio files naming
+				else
+				{
+					$fileName = basename($node->getAttribute("data-diffusion-path"));
+					$fileName = str_replace("le-jeu-des-1000-eu-", "", $fileName);
+										
+					if($fileName != "")
+					{
+						$fileName = explode("-", $fileName);
+						if(is_array($fileName) && count($fileName)==3)
+						{
+							$newYear = intval($fileName[2]);
+							if($newYear != $currentYear)
+							{
+								$currentYear = $newYear;
+							}
+							$fileName = $fileName[2] . "." . $this->monthCorrespondence[$fileName[1]] . "." . $fileName[0] . ".mp3";
+						}
+					}
+				}
+				
+				if(!is_null($currentYear) && !is_null($fileName) && strlen($fileName)>6 && substr($fileName, -3) == "mp3")
+				{
+					if(!file_exists($currentYear))
+					{
 						mkdir($currentYear);
 					}
-					
-					$fileName = $fileName[2] . "." . $fileName[1] . "." . $fileName[0];
-					$fileName = $currentYear . "/". $fileName . ".mp3";
-					
-					
-					if(file_put_contents($fileName, fopen($node->getAttribute("data-url"), 'r')))
-					//if(1)
-					{
-						echo $fileName . " - File downloaded successfully \n";
-					}
-					else
-					{
-						echo "File downloading failed. \n";
-					}
-				}				
+					$fileName = $currentYear . "/". $fileName;
+					$this->download($fileName, $node->getAttribute("data-url"));
+				}
 			}
 		}
 	}
@@ -170,5 +221,34 @@ class extractFranceInter extends pageLoader {
 
 $myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
 
+/***
 
+52 - 06.09.2016
+52 - 05.09.2016
+52 - 02.09.2016
+52 - 01.09.2016
+52 - 31.08.2016
+52 - 30.08.2016
+52 - 29.08.2016
+52 - 01.07.2016
+52 - 30.06.2016
+52 - 29.06.2016
+52 - 28.06.2016
+52 - 27.06.2016
+52 - 24.06.2016
+52 - 23.06.2016
+53 - 22.06.2016
+53 - 21.06.2016
+53 - 20.06.2016
+53 - 17.06.2016
+53 - 16.06.2016
+53 - 15.06.2016
+53 - 14.06.2016
+53 - 13.06.2016
+53 - 10.06.2016
+57 - 15.02.2016
+57 - 15.02.2016
+61 - 16.11.2015
+62 - 23.09.2015
+*/
 
