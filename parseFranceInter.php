@@ -90,12 +90,12 @@ class pageLoader {
 			if(file_put_contents($fileName, fopen($source, 'r')))
 			{
 				$message =  $fileName . " - File downloaded successfully \n";
-				echo $message;
+				//echo $message;
 			}
 			else
 			{
 				$message = "File downloading failed. \n";
-				echo $message;
+				//echo $message;
 			}
 		}
 		return $message;
@@ -179,7 +179,7 @@ class extractFranceInter extends pageLoader {
 						mkdir($currentYear);
 					}
 					$fileName = $currentYear . "/". $fileName;
-					$this->download($fileName, $node->getAttribute("data-url"));
+					echo $this->download($fileName, $node->getAttribute("data-url"));
 				}
 			}
 		}
