@@ -141,6 +141,7 @@ class extractFranceInter extends pageLoader {
 			$className="replay-button playable";
 			$pageToExtract= $pageToExtract->myXPath->query("//*[contains(@class, '$className')]");
 			
+			//For each detect node (button with the right attribute) we try to download
 			foreach($pageToExtract as $node)
 			{
 				//We enforce this format for the fileName -> yyyy.mm.dd.mp3
@@ -163,6 +164,7 @@ class extractFranceInter extends pageLoader {
 					
 					$fileName = $fileName[2] . "." . $fileName[1] . "." . $fileName[0] . ".mp3";
 				}
+				
 				//Detecting old format for audio files naming
 				else
 				{
