@@ -1,3 +1,8 @@
+# sadly this code does not work anymore, marketers and clever French people have done their best and redesigned completely France Inter's website and now everything is gathered on radiofrance's website...
+# if I take the time, I'll try to update the code <3
+
+
+
 # downloadFranceInter
 
 Script for downloading all the archives of "le jeu des 1000 euros" on "France Inter" (French radio)
