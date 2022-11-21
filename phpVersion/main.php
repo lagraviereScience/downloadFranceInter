@@ -1,4 +1,5 @@
 <?php
+require_once("classes/extractRadioFrance.class.php");
 //https://www.franceinter.fr/emissions/le-jeu-des-1000-eu/archives-24-08-2020-26-06-2021
 //https://www.franceinter.fr/emissions/le-jeu-des-1000-eu/archives-29-08-2011-29-06-2012?p=11
 
@@ -10,13 +11,15 @@
 */
 
 
-
-
-
-
-
 //$myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
 
 
-$myExtract = new extractFranceInter("https://www.radiofrance.fr/franceinter/podcasts/le-jeu-des-1000");
-$myExtract->test1();
+$myExtract = new extractRadioFrance("https://www.radiofrance.fr/franceinter/podcasts/le-jeu-des-1000?p=220");
+if($myExtract->checkEmpty())
+{
+    echo "vide";
+}
+else
+{
+    echo "pas vide";
+}

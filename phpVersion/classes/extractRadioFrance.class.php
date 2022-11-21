@@ -1,6 +1,7 @@
 <?php
+require_once("pageLoader.class.php");
 
-class extractFranceInter extends pageLoader {
+class extractRadioFrance extends pageLoader {
 	
 	private $archiveUrlByYear = array();
 
@@ -142,8 +143,38 @@ class extractFranceInter extends pageLoader {
 		foreach($ex as $node)
 		{
 			var_dump($node);
-			$res = new DomXPath($node);
+			//$res = new DomXPath($node);
 			exit(0);
 		}
 	}
+
+
+
+    private function replace_carriage_return($replace, $string)
+    {
+        return str_replace(array("\n\r", "\n", "\r", PHP_EOL), $replace, $string);
+    }
+    
+    public function checkEmpty() : bool
+    {
+        // /html/body/div/main/section/div[2]/div/div
+        // /html/body/div/main/section/div[2]/div/div/span
+        // Aucun contenu disponible.
+
+        /*
+        Aucun
+contenu disponible.
+        */ 
+        //echo $this->getHtml();
+        $criteria = "Aucun contenu disponible";
+
+        if(strstr( $this->replace_carriage_return(" ", $this->getHtml()), $criteria) !== false)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
