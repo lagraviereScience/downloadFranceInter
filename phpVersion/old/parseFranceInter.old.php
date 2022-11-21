@@ -213,9 +213,9 @@ class extractFranceInter extends pageLoader {
 	{
 		parent::__construct($url);
 		//This loop is based on page number, so $i indicate which page on France Inter's website we are accessing and subsequently downloading
-		for($i = 1; $i <=  $this->getMaxPage();$i++)
+		//for($i = 1; $i <=  $this->getMaxPage();$i++)
 		{
-			$this->extractor($i);
+			//$this->extractor($i);
 		}
 	}
 	
@@ -240,5 +240,8 @@ class extractFranceInter extends pageLoader {
 	}
 }
 
-$myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
+//$myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
 
+
+$myExtract = new extractFranceInter("https://www.radiofrance.fr/franceinter/podcasts/le-jeu-des-1000");
+echo $myExtract->getHtml();
