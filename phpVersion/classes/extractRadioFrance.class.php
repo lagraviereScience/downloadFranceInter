@@ -23,13 +23,76 @@ class extractRadioFrance extends pageLoader {
 	*/
 	public function getMaxPage() : int
 	{
-		$className="pager-item last";
-		$lastPage= $this->myXPath->query("//*[contains(@class, '$className')]");
+		$increment = 2000;
+		$nextIncrement = 1;
+		$found = FALSE;
+		$maxIncrement = -1;
+		while(!$found)
+		{
+			echo $increment . "\n";
+			if((new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $increment))->checkEmpty())
+			{
+				if((new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $increment-1))->checkEmpty())
+				{
+					
+				}
+				else
+				{
+					$increment--;
+					$found = true;
+					return $increment;
+				}
+				//$increment = intval($increment / 2);
+				$nextIncrement = $increment / 2;
 				
-		return $maxPages=substr($lastPage[0]->childNodes[0]->getAttribute('href'), -3);
+				if($nextIncrement<10)
+				{
+					$nextIncrement = 1;
+				}
+				$increment = $nextIncrement;
+			}
+			else
+			{
+					$increment = $increment + 1;
+			}
+		}
+		return $increment;
 	}
 
+	//private final function pageFinder() : int
+	
 
+	public function getMaxPages2() : int
+	{
+		$lowerBound = 1;
+		$upperBound = 1;
+		
+		while(true){
+			$myUrl = new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $upperBound);
+			if($myUrl->checkEmpty()){
+				break;
+			}
+			$lowerBound = $upperBound + 1;
+			$upperBound <<= 1;
+		}
+		
+		$ans = $lowerBound;
+		
+		while($lowerBound <= $upperBound){
+			$mid = $lowerBound + (($upperBound - $lowerBound) >> 1);
+			$myUrl = new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $mid);
+			if($myUrl->checkEmpty()){
+				$upperBound = $mid - 1;
+			}else{
+				$lowerBound = $mid + 1;
+				$ans = $lowerBound;
+			}
+		}
+		
+		return $ans-1;
+	}
+
+	
 	
 	
 	/**
@@ -147,6 +210,8 @@ class extractRadioFrance extends pageLoader {
 			exit(0);
 		}
 	}
+
+
 
 
 

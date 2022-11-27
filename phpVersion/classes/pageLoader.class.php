@@ -2,20 +2,20 @@
 
 class pageLoader {
 	public $urlSource;
+    protected $urlWithoutGetParameter;
+
 	protected $html;
 	protected $myXPath;
 	protected $myDom;
 	protected $monthCorrespondence = array();
 	
 	
-	public final function getHtml() : string
-	{
-		return $this->html;
-	}
+
 	
 	public function __construct($url)
 	{
 		$this->urlSource = $url;
+        $this->urlWithoutGetParameter = $url = strtok($url, '?');
 		$this->myDom = new DomDocument();
 		$this->readUrlSource();
 		$this->prepareDom();
@@ -36,6 +36,16 @@ class pageLoader {
 		$this->monthCorrespondence["octobre"] = "10";
 		$this->monthCorrespondence["novembre"] = "11";
 		$this->monthCorrespondence["decembre"] = "12";
+	}
+
+	public final function getHtml() : string
+	{
+		return $this->html;
+	}
+
+	public final function getUrlWithoutGetParameter() : string
+	{
+		return $this->urlWithoutGetParameter;
 	}
 	
 	
