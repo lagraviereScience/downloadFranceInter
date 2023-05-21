@@ -1,32 +1,29 @@
 <?php
-//$jsonOrig = file_get_contents("https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000?page=447");
-//$jsonDecoded = json_decode($jsonOrig, true);
-
 $baseUrl = "https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000";
 $maxPage = getMaxPage($baseUrl);
-//echo $maxPage . "\n";
 
-for($i=1;$i<=$maxPage;$i++)
+for($i=135;$i<=$maxPage;$i++)
 {
     $urlToDownload = $baseUrl . "&page=" . $i;
     $jsonOrig = file_get_contents($urlToDownload);
     $jsonDecoded = json_decode($jsonOrig, true);
     foreach($jsonDecoded["content"]["expressions"]["items"] as $items)
     {
-        downloadManager($items["manifestations"][0]["url"]);
-        //$date = extractDate($urlOfMp3);
-        //echo $date . " - " . $urlOfMp3 . "\n";
+        if(isset($items["manifestations"][0]))
+        {
+            $date = date('d.m.Y', $items["manifestations"][0]["created"]);
+            downloadManager($items["manifestations"][0]["url"], $date);
+        }
     }
 }
 
-function downloadManager($url) : void
+function downloadManager($url, $date) : void
 {
     if($url == "" or is_null($url))
     {
         return;
     }
 
-    $date = extractDate($url);
     $year = substr($date, -4);
 
     if(!file_exists($year))
@@ -34,13 +31,16 @@ function downloadManager($url) : void
         mkdir($year);
     }
     $destination= $year . "/" . $date . ".mp3";
-    echo "$destination" . "\n"; 
-    file_put_contents($destination, fopen($url, 'r'));
+    echo "$destination" . "\n";
+    if(!file_exists($destination))
+    {
+        file_put_contents($destination, fopen($url, 'r'));
+    }
 }
 
 function extractDate(string $myString) : string
 {
-    $pattern = '/(\d{2}\.\d{2}\.\d{4})/';  // Regular expression pattern for dd.mm.yyyy format
+    $pattern = '/(\d{2}\.\d{2}\.\d{4})/';
     $matches = array();
     $date = "";
 
@@ -87,4 +87,3 @@ function getMaxPage(string $url) : int
     
     return $ans-1;
 }
-
