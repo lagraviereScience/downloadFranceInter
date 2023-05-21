@@ -1,0 +1,1448 @@
+object(stdClass)#69 (1) {
+  ["content"]=>
+  object(stdClass)#50 (30) {
+    ["expressions"]=>
+    object(stdClass)#1 (6) {
+      ["prev"]=>
+      string(8) "MjQ2MA=="
+      ["next"]=>
+      string(8) "MjQ4NA=="
+      ["items"]=>
+      array(12) {
+        [0]=>
+        object(stdClass)#2 (19) {
+          ["id"]=>
+          string(36) "12c3c766-353e-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(20) "Alberville (Savoie) "
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328615100)
+          ["startDate"]=>
+          int(1328615100)
+          ["endDate"]=>
+          int(1328616000)
+          ["path"]=>
+          string(62) "franceinter/podcasts/le-jeu-des-1000/alberville-savoie-3844472"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#3 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#4 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#5 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "360a3040-7711-4c2c-bb74-4c74210590db"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/02/s06/NET_360a3040-7711-4c2c-bb74-4c74210590db.mp3"
+              ["created"]=>
+              int(1328616136)
+              ["duration"]=>
+              int(740)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [1]=>
+        object(stdClass)#6 (19) {
+          ["id"]=>
+          string(36) "83f87900-353d-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(20) "Alberville ( Savoie)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328528700)
+          ["startDate"]=>
+          int(1328528700)
+          ["endDate"]=>
+          int(1328529600)
+          ["path"]=>
+          string(62) "franceinter/podcasts/le-jeu-des-1000/alberville-savoie-2388042"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#7 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#8 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#9 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "e8c42f1d-d9b5-4e4f-9ee3-9a3f86cee87e"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/02/s06/NET_e8c42f1d-d9b5-4e4f-9ee3-9a3f86cee87e.mp3"
+              ["created"]=>
+              int(1328530290)
+              ["duration"]=>
+              int(752)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [2]=>
+        object(stdClass)#10 (19) {
+          ["id"]=>
+          string(36) "c8ae0982-3535-11e1-a502-842b2b72cd74"
+          ["title"]=>
+          string(18) "Dolomieu ( Isère)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328269500)
+          ["startDate"]=>
+          int(1328269500)
+          ["endDate"]=>
+          int(1328270400)
+          ["path"]=>
+          string(59) "franceinter/podcasts/le-jeu-des-1000/dolomieu-isere-6862841"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#11 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#12 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#13 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "6d983564-aed2-46df-b146-cc4b0517872d"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/02/s05/NET_6d983564-aed2-46df-b146-cc4b0517872d.mp3"
+              ["created"]=>
+              int(1328270511)
+              ["duration"]=>
+              int(748)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [3]=>
+        object(stdClass)#14 (19) {
+          ["id"]=>
+          string(36) "418c9cb6-3535-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(19) "Dolomieu ( Isère) "
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328183100)
+          ["startDate"]=>
+          int(1328183100)
+          ["endDate"]=>
+          int(1328184000)
+          ["path"]=>
+          string(59) "franceinter/podcasts/le-jeu-des-1000/dolomieu-isere-5030274"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#15 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#16 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#17 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "ede1d2fa-bb61-4226-84c1-6d74fa0afc33"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/02/s05/NET_ede1d2fa-bb61-4226-84c1-6d74fa0afc33.mp3"
+              ["created"]=>
+              int(1328184707)
+              ["duration"]=>
+              int(688)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [4]=>
+        object(stdClass)#18 (19) {
+          ["id"]=>
+          string(36) "bb3e1176-3534-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(34) "Dolomieu ( Isère) spécial Jeunes"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328096700)
+          ["startDate"]=>
+          int(1328096700)
+          ["endDate"]=>
+          int(1328097600)
+          ["path"]=>
+          string(74) "franceinter/podcasts/le-jeu-des-1000/dolomieu-isere-special-jeunes-7758835"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#19 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#20 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#21 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "15a557b9-d3e4-4f74-831e-ac63eb496420"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/02/s05/NET_15a557b9-d3e4-4f74-831e-ac63eb496420.mp3"
+              ["created"]=>
+              int(1328098301)
+              ["duration"]=>
+              int(703)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [5]=>
+        object(stdClass)#22 (19) {
+          ["id"]=>
+          string(36) "76627834-3530-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(16) "Virieu ( Isère)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1328010300)
+          ["startDate"]=>
+          int(1328010300)
+          ["endDate"]=>
+          int(1328011200)
+          ["path"]=>
+          string(57) "franceinter/podcasts/le-jeu-des-1000/virieu-isere-1272970"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#23 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#24 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#25 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "6690bf8e-58d3-4256-a16a-49f54fed0f71"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s05/NET_6690bf8e-58d3-4256-a16a-49f54fed0f71.mp3"
+              ["created"]=>
+              int(1328011916)
+              ["duration"]=>
+              int(757)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [6]=>
+        object(stdClass)#26 (19) {
+          ["id"]=>
+          string(36) "ef4eb150-352f-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(17) "Virieu ( Isère) "
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327923900)
+          ["startDate"]=>
+          int(1327923900)
+          ["endDate"]=>
+          int(1327924800)
+          ["path"]=>
+          string(57) "franceinter/podcasts/le-jeu-des-1000/virieu-isere-1451131"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#27 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#28 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#29 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "5e69ecd8-c978-4e62-9c1c-ca4e219b003b"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s05/NET_5e69ecd8-c978-4e62-9c1c-ca4e219b003b.mp3"
+              ["created"]=>
+              int(1327943481)
+              ["duration"]=>
+              int(712)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [7]=>
+        object(stdClass)#30 (19) {
+          ["id"]=>
+          string(36) "f30e6d68-352e-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(21) "Saint-Priest (Rhône)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327664700)
+          ["startDate"]=>
+          int(1327664700)
+          ["endDate"]=>
+          int(1327665600)
+          ["path"]=>
+          string(63) "franceinter/podcasts/le-jeu-des-1000/saint-priest-rhone-7009352"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#31 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#32 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#33 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "45222ad9-77f8-44da-a49a-8b4e24578a26"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s04/NET_45222ad9-77f8-44da-a49a-8b4e24578a26.mp3"
+              ["created"]=>
+              int(1327665707)
+              ["duration"]=>
+              int(767)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [8]=>
+        object(stdClass)#34 (19) {
+          ["id"]=>
+          string(36) "908d64ba-352d-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(21) "Saint-Priest (Rhône)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327578300)
+          ["startDate"]=>
+          int(1327578300)
+          ["endDate"]=>
+          int(1327579200)
+          ["path"]=>
+          string(63) "franceinter/podcasts/le-jeu-des-1000/saint-priest-rhone-8245748"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#35 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#36 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#37 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "4aeaf100-25dc-4589-9bc3-d51bdb75e66e"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s04/NET_4aeaf100-25dc-4589-9bc3-d51bdb75e66e.mp3"
+              ["created"]=>
+              int(1327579912)
+              ["duration"]=>
+              int(749)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [9]=>
+        object(stdClass)#38 (19) {
+          ["id"]=>
+          string(36) "8488fc0e-352a-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(37) "Villeurbanne (Rhône) spécial Jeunes"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327491900)
+          ["startDate"]=>
+          int(1327491900)
+          ["endDate"]=>
+          int(1327492800)
+          ["path"]=>
+          string(78) "franceinter/podcasts/le-jeu-des-1000/villeurbanne-rhone-special-jeunes-5523494"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#39 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#40 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#41 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "a9d83bfa-ac74-4382-86ea-c524a6876240"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s04/NET_a9d83bfa-ac74-4382-86ea-c524a6876240.mp3"
+              ["created"]=>
+              int(1327493510)
+              ["duration"]=>
+              int(746)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [10]=>
+        object(stdClass)#42 (19) {
+          ["id"]=>
+          string(36) "eb162bc8-3529-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(21) "Villeurbanne (Rhône)"
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327405500)
+          ["startDate"]=>
+          int(1327405500)
+          ["endDate"]=>
+          int(1327406400)
+          ["path"]=>
+          string(63) "franceinter/podcasts/le-jeu-des-1000/villeurbanne-rhone-9722231"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#43 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#44 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#45 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "c83392d2-59af-4467-92c2-3315a18a7d82"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s04/NET_c83392d2-59af-4467-92c2-3315a18a7d82.mp3"
+              ["created"]=>
+              int(1327407084)
+              ["duration"]=>
+              int(745)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+        [11]=>
+        object(stdClass)#46 (19) {
+          ["id"]=>
+          string(36) "511cfaf6-3529-11e1-a6ab-842b2b72cd1d"
+          ["title"]=>
+          string(22) "Villeurbanne (Rhône) "
+          ["standFirst"]=>
+          NULL
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1327319100)
+          ["startDate"]=>
+          int(1327319100)
+          ["endDate"]=>
+          int(1327320000)
+          ["path"]=>
+          string(63) "franceinter/podcasts/le-jeu-des-1000/villeurbanne-rhone-1126850"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#47 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#48 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#49 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "8b1d5afe-0d7e-496f-b146-93117921f17b"
+              ["title"]=>
+              string(21) "Le jeu des 1000 euros"
+              ["url"]=>
+              string(123) "https://cdn.radiofrance.fr/s3/cruiser-production/static/inter/sons/2012/01/s04/NET_8b1d5afe-0d7e-496f-b146-93117921f17b.mp3"
+              ["created"]=>
+              int(1327320108)
+              ["duration"]=>
+              int(718)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+          ["brand"]=>
+          string(11) "franceinter"
+          ["isTimeshiftable"]=>
+          bool(false)
+        }
+      }
+      ["lastPage"]=>
+      int(18)
+      ["pageSize"]=>
+      int(12)
+      ["pageNumber"]=>
+      int(207)
+    }
+    ["id"]=>
+    string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+    ["title"]=>
+    string(19) "Le jeu des 1000 €"
+    ["path"]=>
+    string(36) "franceinter/podcasts/le-jeu-des-1000"
+    ["kind"]=>
+    string(7) "antenne"
+    ["numberOfEpisodes"]=>
+    NULL
+    ["visual"]=>
+    object(stdClass)#51 (10) {
+      ["src"]=>
+      string(131) "https://www.radiofrance.fr/s3/cruiser-production/2023/04/05fcb491-76d5-46e8-9fa4-54f05a8bfaf5/400x400_sc_le-jeu-des-mille-euros.jpg"
+      ["webpSrc"]=>
+      string(132) "https://www.radiofrance.fr/s3/cruiser-production/2023/04/05fcb491-76d5-46e8-9fa4-54f05a8bfaf5/400x400_sc_le-jeu-des-mille-euros.webp"
+      ["legend"]=>
+      string(21) "Le jeu des 1000 euros"
+      ["copyright"]=>
+      string(12) "Radio France"
+      ["author"]=>
+      NULL
+      ["width"]=>
+      int(400)
+      ["height"]=>
+      int(400)
+      ["preview"]=>
+      string(432) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAqACoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEA/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMAAQT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREC/9oADAMBAAIRAxEAPwB2pqUbUZHtq2pUYsc1LEwsXGOUqJ0ccidFcVjDWxcaKFOLRpUa0bpNbRqwkihDCCqx/9k="
+      ["id"]=>
+      string(36) "05fcb491-76d5-46e8-9fa4-54f05a8bfaf5"
+      ["credits"]=>
+      string(15) "© Radio France"
+    }
+    ["standFirst"]=>
+    string(77) "Le mythique jeu de France Inter, plus ancien jeu radiophonique de l'Hexagone."
+    ["airtime"]=>
+    string(29) "Du lundi au vendredi à 12h45"
+    ["publishedDate"]=>
+    int(1345557508)
+    ["manualUpdate"]=>
+    int(1345557508)
+    ["themes"]=>
+    array(1) {
+      [0]=>
+      object(stdClass)#52 (5) {
+        ["id"]=>
+        string(36) "8b78fb1a-bf1e-436e-a2fc-4375fa38154b"
+        ["title"]=>
+        string(22) "Arts et Divertissement"
+        ["migrated"]=>
+        bool(true)
+        ["path"]=>
+        string(20) "arts-divertissements"
+        ["parent"]=>
+        NULL
+      }
+    }
+    ["tagsAndPersonalities"]=>
+    array(0) {
+    }
+    ["parentConcept"]=>
+    NULL
+    ["lastEpisodeWithinTwoMonths"]=>
+    object(stdClass)#53 (3) {
+      ["prev"]=>
+      NULL
+      ["next"]=>
+      string(4) "MQ=="
+      ["items"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#54 (20) {
+          ["id"]=>
+          string(36) "be2bf1d6-40bb-4670-a4f7-acbecdfea17a"
+          ["title"]=>
+          string(18) "à Guécélard | 5"
+          ["standFirst"]=>
+          string(44) "N'hésitez pas à vous abonner au podcast !"
+          ["brandEnums"]=>
+          array(1) {
+            [0]=>
+            string(11) "FRANCEINTER"
+          }
+          ["model"]=>
+          string(10) "Expression"
+          ["type"]=>
+          string(7) "episode"
+          ["kind"]=>
+          string(7) "antenne"
+          ["guest"]=>
+          array(0) {
+          }
+          ["originExpression"]=>
+          array(0) {
+          }
+          ["publishedDate"]=>
+          int(1684493110)
+          ["startDate"]=>
+          int(1684493110)
+          ["endDate"]=>
+          int(1684493999)
+          ["path"]=>
+          string(84) "franceinter/podcasts/le-jeu-des-1000/le-jeu-des-1000-du-vendredi-19-mai-2023-3047063"
+          ["migrated"]=>
+          bool(true)
+          ["visual"]=>
+          NULL
+          ["squaredVisual"]=>
+          NULL
+          ["serie"]=>
+          NULL
+          ["concept"]=>
+          object(stdClass)#55 (4) {
+            ["id"]=>
+            string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+            ["title"]=>
+            string(19) "Le jeu des 1000 €"
+            ["path"]=>
+            string(36) "franceinter/podcasts/le-jeu-des-1000"
+            ["visual"]=>
+            object(stdClass)#56 (9) {
+              ["src"]=>
+              string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+              ["webpSrc"]=>
+              string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+              ["legend"]=>
+              string(17) "Nicolas Stoufflet"
+              ["copyright"]=>
+              string(12) "Radio France"
+              ["author"]=>
+              string(21) "Christophe Abramowitz"
+              ["width"]=>
+              int(464)
+              ["height"]=>
+              int(261)
+              ["preview"]=>
+              string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+              ["id"]=>
+              string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+            }
+          }
+          ["mainResourceAudioAndVideo"]=>
+          NULL
+          ["manifestations"]=>
+          array(1) {
+            [0]=>
+            object(stdClass)#57 (7) {
+              ["model"]=>
+              string(18) "ManifestationAudio"
+              ["id"]=>
+              string(36) "83907f8b-d64f-4c01-a8a2-563b3a4bc3b3"
+              ["title"]=>
+              string(18) "à Guécélard | 5"
+              ["url"]=>
+              string(101) "https://media.radiofrance-podcast.net/podcast09/10206-19.05.2023-ITEMA_23383683-2023F4004S0139-22.mp3"
+              ["created"]=>
+              int(1684493999)
+              ["duration"]=>
+              int(785)
+              ["sharable"]=>
+              bool(false)
+            }
+          }
+        }
+      }
+    }
+    ["visual_400x400"]=>
+    NULL
+    ["visual_1000x563"]=>
+    NULL
+    ["visual_1024x320"]=>
+    NULL
+    ["hasChronics"]=>
+    bool(false)
+    ["hasSeries"]=>
+    bool(false)
+    ["podcast"]=>
+    object(stdClass)#58 (2) {
+      ["rss"]=>
+      string(55) "https://radiofrance-podcast.net/podcast09/rss_10206.xml"
+      ["itune"]=>
+      object(stdClass)#59 (1) {
+        ["url"]=>
+        string(71) "https://podcasts.apple.com/fr/podcast/le-jeu-des-1000-euros/id306769782"
+      }
+    }
+    ["staff"]=>
+    array(1) {
+      [0]=>
+      object(stdClass)#60 (6) {
+        ["id"]=>
+        string(36) "6a0ad30e-9bea-11e0-b8ee-842b2b72cd1d"
+        ["name"]=>
+        string(14) "Yann Pailleret"
+        ["path"]=>
+        string(24) "personnes/yann-pailleret"
+        ["migrated"]=>
+        bool(true)
+        ["visual"]=>
+        NULL
+        ["role"]=>
+        string(11) "realisation"
+      }
+    }
+    ["connections"]=>
+    array(2) {
+      [0]=>
+      object(stdClass)#61 (3) {
+        ["type"]=>
+        string(8) "facebook"
+        ["title"]=>
+        NULL
+        ["url"]=>
+        string(41) "https://www.facebook.com/NicolasStoufflet"
+      }
+      [1]=>
+      object(stdClass)#62 (3) {
+        ["type"]=>
+        string(4) "mail"
+        ["title"]=>
+        NULL
+        ["url"]=>
+        string(76) "/franceinter/contact/formulaire?concept=48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+      }
+    }
+    ["model"]=>
+    string(7) "Concept"
+    ["relatedSeries"]=>
+    array(0) {
+    }
+    ["background"]=>
+    NULL
+    ["lastEpisode"]=>
+    object(stdClass)#63 (21) {
+      ["id"]=>
+      string(36) "be2bf1d6-40bb-4670-a4f7-acbecdfea17a"
+      ["title"]=>
+      string(18) "à Guécélard | 5"
+      ["standFirst"]=>
+      string(44) "N'hésitez pas à vous abonner au podcast !"
+      ["brandEnums"]=>
+      array(1) {
+        [0]=>
+        string(11) "FRANCEINTER"
+      }
+      ["model"]=>
+      string(10) "Expression"
+      ["type"]=>
+      string(7) "episode"
+      ["kind"]=>
+      string(7) "antenne"
+      ["guest"]=>
+      array(0) {
+      }
+      ["originExpression"]=>
+      array(0) {
+      }
+      ["publishedDate"]=>
+      int(1684493110)
+      ["startDate"]=>
+      int(1684493110)
+      ["endDate"]=>
+      int(1684493999)
+      ["path"]=>
+      string(84) "franceinter/podcasts/le-jeu-des-1000/le-jeu-des-1000-du-vendredi-19-mai-2023-3047063"
+      ["migrated"]=>
+      bool(true)
+      ["visual"]=>
+      NULL
+      ["squaredVisual"]=>
+      NULL
+      ["serie"]=>
+      NULL
+      ["concept"]=>
+      object(stdClass)#64 (4) {
+        ["id"]=>
+        string(36) "48f74c6a-eb98-11e1-a7b7-782bcb76618d"
+        ["title"]=>
+        string(19) "Le jeu des 1000 €"
+        ["path"]=>
+        string(36) "franceinter/podcasts/le-jeu-des-1000"
+        ["visual"]=>
+        object(stdClass)#65 (9) {
+          ["src"]=>
+          string(123) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.jpg"
+          ["webpSrc"]=>
+          string(124) "https://www.radiofrance.fr/s3/cruiser-production/2022/05/ce2365d4-9e88-4d92-8310-6bd5358ca1c9/464x261_nicolas-stoufflet.webp"
+          ["legend"]=>
+          string(17) "Nicolas Stoufflet"
+          ["copyright"]=>
+          string(12) "Radio France"
+          ["author"]=>
+          string(21) "Christophe Abramowitz"
+          ["width"]=>
+          int(464)
+          ["height"]=>
+          int(261)
+          ["preview"]=>
+          string(504) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAXACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECBAUD/8QAHxAAAgMAAgIDAAAAAAAAAAAAAAECAxEEIRMxIjNB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARAhIh/9oADAMBAAIRAxEAPwDTUR4FslXW5P8ADKt5Vm/FtBctcc+nKzK1+V9Pd6LaWpMzuPY5Sc594acJKcFJemCvZjlBxFh1aFhbE7K1ZBxfplC/iRrku90AJBT6UY1KK6LvF+kALFV1uwgAS//Z"
+          ["id"]=>
+          string(36) "ce2365d4-9e88-4d92-8310-6bd5358ca1c9"
+        }
+      }
+      ["mainResourceAudioAndVideo"]=>
+      NULL
+      ["manifestations"]=>
+      array(1) {
+        [0]=>
+        object(stdClass)#66 (7) {
+          ["model"]=>
+          string(18) "ManifestationAudio"
+          ["id"]=>
+          string(36) "83907f8b-d64f-4c01-a8a2-563b3a4bc3b3"
+          ["title"]=>
+          string(18) "à Guécélard | 5"
+          ["url"]=>
+          string(101) "https://media.radiofrance-podcast.net/podcast09/10206-19.05.2023-ITEMA_23383683-2023F4004S0139-22.mp3"
+          ["created"]=>
+          int(1684493999)
+          ["duration"]=>
+          int(785)
+          ["sharable"]=>
+          bool(false)
+        }
+      }
+      ["isTimeshiftable"]=>
+      bool(false)
+    }
+    ["bodyJson"]=>
+    array(0) {
+    }
+    ["producers"]=>
+    array(1) {
+      [0]=>
+      object(stdClass)#67 (6) {
+        ["id"]=>
+        string(36) "4484b9e2-9bea-11e0-b8ee-842b2b72cd1d"
+        ["name"]=>
+        string(17) "Nicolas Stoufflet"
+        ["path"]=>
+        string(27) "personnes/nicolas-stoufflet"
+        ["migrated"]=>
+        bool(true)
+        ["visual"]=>
+        object(stdClass)#68 (9) {
+          ["src"]=>
+          string(123) "https://www.radiofrance.fr/s3/cruiser-production/2016/09/460b8d9e-3f81-4b78-bdb7-122cbd5a2c64/120x120_stoufflet_nicolas.jpg"
+          ["webpSrc"]=>
+          string(124) "https://www.radiofrance.fr/s3/cruiser-production/2016/09/460b8d9e-3f81-4b78-bdb7-122cbd5a2c64/120x120_stoufflet_nicolas.webp"
+          ["legend"]=>
+          string(17) "Nicolas Stoufflet"
+          ["copyright"]=>
+          string(12) "Radio France"
+          ["author"]=>
+          string(21) "Christophe Abramowitz"
+          ["width"]=>
+          int(120)
+          ["height"]=>
+          int(120)
+          ["preview"]=>
+          string(600) "/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAqACoDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAQIDBAUA/8QAHxAAAgICAwEBAQAAAAAAAAAAAAECAwQREiExQTNh/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABsRAQEAAgMBAAAAAAAAAAAAAAABAhEDEiEx/9oADAMBAAIRAxEAPwDUSG0d4tleeXGt9+BaclvwcmfBJKWtgos3Pg5citkZNV2mk9/0nw61yctLoW/VXG4z1ZaBodoGikIcqbhQ2vpkz2zclFTjqS2ipkY9cIcorvYrFYZdbtmQTUlvsvwscZpw6X0Crj7o6SUVsJNK5OTvrTSXaTACEk4rT+BGzBEeT3SyQjv/ACYBXiuhbK5WLjH6PHwav9EBHx6XX76THHAb/9k="
+          ["id"]=>
+          string(36) "460b8d9e-3f81-4b78-bdb7-122cbd5a2c64"
+        }
+        ["role"]=>
+        string(10) "production"
+      }
+    }
+    ["timeshiftStreams"]=>
+    array(0) {
+    }
+  }
+}
