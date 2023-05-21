@@ -1,19 +1,54 @@
 <?php
+//$jsonOrig = file_get_contents("https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000?page=447");
+//$jsonDecoded = json_decode($jsonOrig, true);
 
+$baseUrl = "https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000";
+$maxPage = getMaxPage($baseUrl);
+//echo $maxPage . "\n";
 
-$jsonOrig = file_get_contents("https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000?page=447");
-$jsonDecoded = json_decode($jsonOrig, true);
-
-//var_dump($jsonDecoded);
-/*echo $jsonDecoded["content"]["expressions"]["next"];
-
-if(is_null($jsonDecoded["content"]["expressions"]["next"]))
+for($i=1;$i<=$maxPage;$i++)
 {
-    echo "it's EMPTYY!!!";
-}*/
+    $urlToDownload = $baseUrl . "&page=" . $i;
+    $jsonOrig = file_get_contents($urlToDownload);
+    $jsonDecoded = json_decode($jsonOrig, true);
+    foreach($jsonDecoded["content"]["expressions"]["items"] as $items)
+    {
+        downloadManager($items["manifestations"][0]["url"]);
+        //$date = extractDate($urlOfMp3);
+        //echo $date . " - " . $urlOfMp3 . "\n";
+    }
+}
 
+function downloadManager($url) : void
+{
+    if($url == "" or is_null($url))
+    {
+        return;
+    }
 
-echo getMaxPage("https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000");
+    $date = extractDate($url);
+    $year = substr($date, -4);
+
+    if(!file_exists($year))
+    {
+        mkdir($year);
+    }
+    $destination= $year . "/" . $date . ".mp3";
+    echo "$destination" . "\n"; 
+    file_put_contents($destination, fopen($url, 'r'));
+}
+
+function extractDate(string $myString) : string
+{
+    $pattern = '/(\d{2}\.\d{2}\.\d{4})/';  // Regular expression pattern for dd.mm.yyyy format
+    $matches = array();
+    $date = "";
+
+    if (preg_match($pattern, $myString, $matches)) {
+        $date = $matches[0];
+    }
+    return $date;
+}
 
 function checkEmpty(array $toCheck) : bool
 {
@@ -23,7 +58,8 @@ function checkEmpty(array $toCheck) : bool
 function getMaxPage(string $url) : int
 {
     $lowerBound = 1;
-    $upperBound = 1;
+    $upperBound = 300;
+    $ans = -1;
     
     while(true){
         $content= json_decode(file_get_contents($url. "&page=" . $upperBound), true);
@@ -40,7 +76,6 @@ function getMaxPage(string $url) : int
     while($lowerBound <= $upperBound){
         $mid = $lowerBound + (($upperBound - $lowerBound) >> 1);
         $content= json_decode(file_get_contents($url. "&page=" . $mid), true);
-        //$myUrl = $url. "&p=" . $mid;
         
         if(checkEmpty($content)){
             $upperBound = $mid - 1;
@@ -52,3 +87,4 @@ function getMaxPage(string $url) : int
     
     return $ans-1;
 }
+
