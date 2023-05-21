@@ -2,7 +2,7 @@
 $baseUrl = "https://www.radiofrance.fr/api/v2.0/path?value=franceinter/podcasts/le-jeu-des-1000";
 $maxPage = getMaxPage($baseUrl);
 
-for($i=135;$i<=$maxPage;$i++)
+for($i=1;$i<=$maxPage;$i++)
 {
     $urlToDownload = $baseUrl . "&page=" . $i;
     $jsonOrig = file_get_contents($urlToDownload);
