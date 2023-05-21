@@ -14,12 +14,16 @@ require_once("classes/extractRadioFrance.class.php");
 //$myExtract = new extractFranceInter("https://www.franceinter.fr/emissions/le-jeu-des-1000-euros");
 
 
-$myExtract = new extractRadioFrance("https://www.radiofrance.fr/franceinter/podcasts/le-jeu-des-1000?p=220");
-if($myExtract->checkEmpty())
+$myExtract = new extractRadioFrance("https://www.radiofrance.fr/franceinter/podcasts/le-jeu-des-1000");
+//echo $myExtract->getUrlWithoutGetParameter();
+/*if($myExtract->checkEmpty())
 {
     echo "vide";
 }
 else
 {
     echo "pas vide";
-}
+}*/
+
+echo $myExtract->getMaxPage();
+//echo $myExtract->getHtml();

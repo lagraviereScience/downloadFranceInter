@@ -23,13 +23,13 @@ class extractRadioFrance extends pageLoader {
 	*/
 	public function getMaxPage() : int
 	{
-		$increment = 2000;
+		$increment = 2;
 		$nextIncrement = 1;
 		$found = FALSE;
 		$maxIncrement = -1;
 		while(!$found)
 		{
-			echo $increment . "\n";
+			//echo $increment . "\n";
 			if((new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $increment))->checkEmpty())
 			{
 				if((new extractRadioFrance($this->urlWithoutGetParameter. "?p=" . $increment-1))->checkEmpty())
@@ -232,6 +232,10 @@ contenu disponible.
         */ 
         //echo $this->getHtml();
         $criteria = "Aucun contenu disponible";
+		//*[@id="0-/franceinter/podcasts/le-jeu-des-1000"]
+		//$this->getHtml()
+		$ex = $this->myXPath->query("count(//*[@id='0-/franceinter/podcasts/le-jeu-des-1000'])");
+		var_dump($ex);
 
         if(strstr( $this->replace_carriage_return(" ", $this->getHtml()), $criteria) !== false)
         {
